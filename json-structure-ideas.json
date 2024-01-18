@@ -1,16 +1,32 @@
-[
-    {
-        "id": 1,
-        "lang1": {
-            "name": "",
-            "guernsey-french": "",
-            "guernsey-french-phonetic": ""
+{
+    "langs": [
+        {
+            "id": "en",
+            "name": "English"
         },
-        "lang2": {
-            "name": "",
-            "guernsey-french": "",
-            "guernsey-french-phonetic": ""
+        {
+            "id": "fr",
+            "name": "French"
         },
-        "description": ""
-    }
-]
+        {
+            "id": "pfr",
+            "name": "Phonetic French"
+        },
+        {
+            "id": "pen",
+            "name": "Phonetic English"
+        }
+    ],
+    "defs": [
+        {
+            "en": {
+                "word": "hello",
+                "def": "Used as an expression of greeting."
+            },
+
+            "fr": {
+                "word": "salut"
+            }
+        }
+    ]
+}
