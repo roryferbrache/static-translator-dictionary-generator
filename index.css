@@ -11,7 +11,7 @@ body > * {
 
 i {
     height: var(--size-4);
-    width: var(--size-5);
+    width: var(--size-4);
     padding: 0 var(--size-4);
 }
 
@@ -41,7 +41,8 @@ form {
     height: 100%;
     width: 100%;
     background-color: transparent;
-    line-height: var(--size-11);
+    line-height: var(--size-10);
     font-size: var(--size-5);
     overflow:hidden;
+    margin-top: 2px;
 }
