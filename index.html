@@ -1,16 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-gb">
 <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Translator</title>
+
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/pollen.css" />
     <script src="https://kit.fontawesome.com/aa6f3e71af.js" crossorigin="anonymous"></script>
     <script src="index.js"></script>
-
-<link rel="stylesheet" href="/pollen.css" />
 </head>
 <body>
-    <div class="search-container">
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <form>
-            <label class="sr-only" for="search">search</label>
-            <textarea maxlength="80" class="search-box" name="search" id="search">Search</textarea>
-        </form>
+    <nav>
+        <menu>
+            <div class="group">
+                <a href="/">Home</a>
+            </div>
+            <ul class="group">
+                <li>
+                    <a href="./language.html">English</a>
+                </li>
+                <li>
+                    <a href="./language.html">French</a>
+                </li>
+                <li>
+                    <a href="./language.html">Spanish</a>
+                </li>
+            </ul>
+        </menu>
+    </nav>
+    <div class="main-content">
+        <div class="search-container">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <form>
+                <label class="sr-only" for="search">search</label>
+                <textarea maxlength="35" class="search-box" name="search" id="search">Search</textarea>
+            </form>
+        </div>
     </div>
 </body>
+</html>
